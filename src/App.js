@@ -40,6 +40,7 @@ const router = createBrowserRouter(
           element={<CareerDetails />}
           path=":id"
           loader={careerDetailsLoader}
+          errorElement={<CareersError />}
         />
       </Route>
       <Route path="*" element={<NotFound />} />

@@ -1,7 +1,7 @@
 {
   "name": "jobrouter",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://mikewdev.github.io/React_router/",
   "dependencies": {
     "@phosphor-icons/react": "^2.0.15",
     "@testing-library/jest-dom": "^5.16.5",

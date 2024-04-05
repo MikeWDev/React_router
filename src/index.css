@@ -178,6 +178,22 @@ form label span {
 .menu-arrow svg:active {
   fill: #bc4123;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: fit-content;
+}
+.contact-field label {
+  display: flex;
+  gap: 1.2rem;
+}
+.contact button {
+  display: block;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
 /*Nav sm*/
 header {
   position: relative;
@@ -247,9 +263,12 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 50px;
   }
   .contact-field {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
   .contact-field input,
   .contact-field textarea {

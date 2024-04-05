@@ -9,7 +9,7 @@ const RootLayout = () => {
   return (
     <div className="root-layout">
       <header>
-        <NavSm visible={visible} />
+        <NavSm visible={visible} setVisible={setVisible} />
         <nav>
           <div className="heading">
             <h1>Jobrouter</h1>

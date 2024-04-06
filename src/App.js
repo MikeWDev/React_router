@@ -23,7 +23,7 @@ import CareersError from "./pages/careers/CareersError";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />}>
+    <Route path="/React_router" element={<RootLayout />}>
       <Route path="/" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="help" element={<HelpLayout />}>
